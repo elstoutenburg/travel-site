@@ -244,10 +244,10 @@
     </div>
 
     <div
-      class="page-section page-section--testimonials page-section--no-b-padding-until-medium"
+      class="page-section page-section--no-b-padding-until-large page-section--testimonials "
       id="testimonials "
     >
-      <div class="wrapper wrapper--no-padding-until-medium">
+      <div class="wrapper wrapper--no-padding-until-large">
         <h2 class="section-title section-title--blue">
           <img
             class="section-title__icon"
@@ -256,12 +256,19 @@
         </h2>
 
         <div
-          class="row row--gutters row--gutters-small row--t-padding row--equal-height-at-medium generic-content-container"
+          class="row row--gutters row--gutters-small row--t-padding row--equal-height-at-large generic-content-container"
         >
-          <div class="row__medium-4">
+          <div class="row__large-4">
             <div class="testimonial">
               <div class="testimonial__photo">
-                <img src="assets/images/testimonial-jane.jpg" />
+                <img
+                  sizes="160px"
+                  srcset="
+                    assets/images/testimonial-jane.jpg        160w,
+                    assets/images/testimonial-jane-hi-dpi.jpg 320w
+                  "
+                  alt="Jane Doe"
+                />
               </div>
 
               <h4 class="testimonial__title">Jane Doe</h4>
@@ -276,10 +283,17 @@
               </p>
             </div>
           </div>
-          <div class="row__medium-4">
-            <div class="testimonial ">
+          <div class="row__large-4">
+            <div class="testimonial">
               <div class="testimonial__photo">
-                <img src="assets/images/testimonial-john.jpg" />
+                <img
+                  sizes="160px"
+                  srcset="
+                    assets/images/testimonial-john.jpg        160w,
+                    assets/images/testimonial-john-hi-dpi.jpg 320w
+                  "
+                  alt="John Doe"
+                />
               </div>
 
               <h4 class="testimonial__title">John Smith</h4>
@@ -293,8 +307,8 @@
               </p>
             </div>
           </div>
-          <div class="row__medium-4">
-            <div class="testimonial testimonial--last">
+          <div class="row__large-4">
+            <div class="testimonial">
               <div class="testimonial__photo">
                 <img src="assets/images/testimonial-cat.jpg" />
               </div>
