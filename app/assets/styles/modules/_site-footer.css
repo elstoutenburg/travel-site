@@ -10,7 +10,7 @@
     font-weight: 200;
 
     @mixin atMedium {
-      display: imline;
+      display: inline;
       margin-bottom: 0.5rem;
       margin-right: 1.4rem;
     }
